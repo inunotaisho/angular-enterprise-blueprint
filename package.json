@@ -1,10 +1,6 @@
 {
   "name": "angular-enterprise-blueprint",
   "version": "2.2.1",
-  "engines": {
-    "node": "^24",
-    "npm": ">=10"
-  },
   "scripts": {
     "ng": "ng",
     "start": "node ./server/index.js",
