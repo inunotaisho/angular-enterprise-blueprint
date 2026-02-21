@@ -1,9 +1,13 @@
 {
   "name": "angular-enterprise-blueprint",
   "version": "2.2.1",
+  "engines": {
+    "node": "^22.12.0",
+    "npm": ">=10"
+  },
   "scripts": {
     "ng": "ng",
-    "start": "node ./server/index.js",
+    "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test --watch=false",
